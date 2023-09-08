@@ -7,4 +7,5 @@ Time to create our Generative Adversarial Network. A GAN has two components:
 * Generator: Creates fake images to fool the Discriminator
 Let’s look at the architecture of GAN
 
-
+![alt text](https://github.com/syedsajjadaskari/GAN/blob/main/1_hezLoexnkWEyxyfrGnEYaw.webp)
+GAN Architecture
