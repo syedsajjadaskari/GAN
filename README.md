@@ -1,21 +1,6 @@
 # GAN
 
-## Data Flow
-
-Time to create our Generative Adversarial Network. A GAN has two components:
-
-* Discriminator: Differentiate between real & fake images (Data)
-* Generator: Creates fake images to fool the Discriminator
-
-  
-## Let’s look at the architecture of GAN
-
-![alt text](https://github.com/syedsajjadaskari/GAN/blob/main/1_hezLoexnkWEyxyfrGnEYaw.webp)
-
-GAN Architecture
 **Project Description: Implementation of Generative Adversarial Networks (GANs) using TensorFlow**
-
-**Overview**
 
 Generative Adversarial Networks (GANs) are a type of machine learning model that can be used to generate realistic data, such as images, text, and audio. GANs work by pitting two neural networks against each other: a generator and a discriminator. The generator tries to generate fake data that looks like real data, while the discriminator tries to distinguish between real and fake data.
 
@@ -30,15 +15,19 @@ The objectives of this project are to:
 * Use the GAN to generate new images.
 * Evaluate the performance of the GAN.
 
-**Methodology**
+Time to create our Generative Adversarial Network. A GAN has two components:
 
-To implement a GAN, we will first need to define the generator and discriminator networks. The generator network will take as input a random noise vector and output a fake image. The discriminator network will take as input an image and output a probability that the image is real.
+* Discriminator: Differentiate between real & fake images (Data)
+* Generator: Creates fake images to fool the Discriminator
 
-Once we have defined the generator and discriminator networks, we will need to train them. To do this, we will use a technique called adversarial training. Adversarial training involves training the two networks simultaneously, where each network tries to improve its performance while making the other network's performance worse.
+  
+## Let’s look at the architecture of GAN
 
-Once the GAN has been trained, we can use it to generate new images. To do this, we will simply sample a random noise vector and feed it to the generator network. The generator network will then output a fake image.
+![alt text](https://github.com/syedsajjadaskari/GAN/blob/main/1_hezLoexnkWEyxyfrGnEYaw.webp)
 
-To evaluate the performance of the GAN, we will use a variety of metrics, such as the Fréchet Inception Distance (FID) and the Inception Score. These metrics measure how realistic the generated images are.
+GAN Architecture
+
+
 
 
 The following resources will be used for this project:
